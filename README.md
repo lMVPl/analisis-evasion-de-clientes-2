@@ -17,10 +17,10 @@ El objetivo principal fue aplicar técnicas de análisis de datos y machine lear
 ## 🗂️ Estructura del Proyecto
 
 ```bash
+├── visualizaciones/ # Carpeta con gráficos guardados
+├── README.md # Descripción del proyecto
 ├── churn_analysis.ipynb # Cuaderno principal con todo el análisis
-├── datos-limpios_evasion-clientes.csv # Dataset limpio y preprocesado
-├── visualizaciones/ # Carpeta opcional para guardar gráficos
-└── README.md # Descripción del proyecto
+└── datos-limpios_evasion-clientes.csv # Dataset limpio y preprocesado
 ```
 
 ---
@@ -72,9 +72,11 @@ Se realizaron varios análisis visuales y estadísticos:
 
 ### 📈 Ejemplos de gráficos:
 
-- `barplot` de proporción de cancelación por tipo de contrato. 
-- Matriz de correlación entre variables numéricas y `Churn`.
-- Importancia de variables según cada modelo.
+<img src="visualizaciones/customer-partner_vs_churn.png" alt="Distribución de Churn por variable" width="300"/> *`barplot` de proporción de cancelación por tipo de contrato*
+
+<img src="visualizaciones/correlacion-churn.png" alt="Distribución de Churn por variable" width="300"/> *Matriz de correlación entre variables numéricas y `Churn`.*
+
+<img src="visualizaciones/fiber-optic_vs_churn.png" alt="Distribución de Churn por variable" width="300"/> *`barplot` de proporción de cancelación por fibra óptica*
 
 ---
 
